@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {add} from '@test/utils'
 function App() {
   return (
     <div className="App">
@@ -9,7 +8,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <div>
-        {add(1,2)}
       </div>
     </div>
   );
